@@ -7,3 +7,6 @@
 # Scratch
 _*.bak
 _preview-*
+
+# AI source images (kept locally as provenance record, not published)
+_source/
