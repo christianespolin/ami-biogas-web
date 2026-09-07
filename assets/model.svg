@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" role="img"
+     aria-label="How the model is structured. The platform, AMI Biogas International AS, develops and operates each plant and earns development and operating fees, and each plant returns to the platform once its investor is repaid. Each plant is a ring-fenced project company funded by its own asset investor, who takes a contracted return and hands the asset back after about ten years. None of the plant capital comes from the platform.">
+  <style>
+    .box  { fill:#14263d; stroke:#33506f; stroke-width:1.4; }
+    .ttl  { fill:#ffffff; font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace; font-size:15px; font-weight:500; }
+    .sub  { fill:#9db1c7; font-family:'IBM Plex Sans','Segoe UI',system-ui,sans-serif; font-size:13px; }
+    .flow { fill:#8fbcff; font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace; font-size:12px; }
+    .ln   { fill:none; stroke:#8fbcff; stroke-width:1.6; }
+    .lnd  { fill:none; stroke:#8fbcff; stroke-width:1.4; stroke-dasharray:5 4; }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8fbcff"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="140" y="14" width="560" height="86" rx="4"/>
+  <text class="ttl" x="164" y="44">The platform &#183; AMI Biogas International AS</text>
+  <text class="sub" x="164" y="67">Carries the engineering, development and operating capability.</text>
+  <text class="sub" x="164" y="86">Earns development and operating fees.</text>
+
+  <line class="ln" x1="300" y1="100" x2="300" y2="192" marker-end="url(#ar)"/>
+  <text class="flow" x="288" y="138" text-anchor="end">develops</text>
+  <text class="flow" x="288" y="154" text-anchor="end">each plant</text>
+
+  <line class="ln" x1="440" y1="192" x2="440" y2="100" marker-end="url(#ar)"/>
+  <text class="flow" x="452" y="138">development</text>
+  <text class="flow" x="452" y="154">+ operating fees</text>
+
+  <rect class="box" x="140" y="194" width="560" height="80" rx="4"/>
+  <text class="ttl" x="164" y="224">Each plant &#8212; a ring-fenced project company</text>
+  <text class="sub" x="164" y="247">Ten now; feedstock secured for around seventy-five.</text>
+  <text class="sub" x="164" y="266">Sells biomethane, bio-fertiliser and carbon reductions.</text>
+
+  <path class="lnd" d="M700 244 H770 V56 H700" marker-end="url(#ar)"/>
+  <text class="flow" x="784" y="140">plant reverts</text>
+  <text class="flow" x="784" y="156">to the platform</text>
+  <text class="flow" x="784" y="172">after buy-out</text>
+
+  <line class="ln" x1="380" y1="368" x2="380" y2="276" marker-end="url(#ar)"/>
+  <text class="flow" x="368" y="326" text-anchor="end">plant equity</text>
+
+  <rect class="box" x="140" y="370" width="560" height="80" rx="4"/>
+  <text class="ttl" x="164" y="400">A separate asset investor for every plant</text>
+  <text class="sub" x="164" y="423">Takes a contracted return. Hands the asset back after ~10 years.</text>
+  <text class="sub" x="164" y="442">None of this capital comes from the platform.</text>
+</svg>

@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Local tooling / editor config
+.claude/
+
+# Scratch
+_*.bak
+_preview-*

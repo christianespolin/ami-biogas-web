@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 372" role="img"
+     aria-label="Temperature response over 100 years from a one-off release: one tonne of methane against twenty-eight tonnes of carbon dioxide. Methane spikes within a few years and then decays back toward zero by around year sixty. Carbon dioxide rises to about a third of the methane peak and stays there. The lines cross at roughly year thirty.">
+  <style>
+    .axis{stroke:#d4dff0;stroke-width:1}
+    .tick{fill:#64748b;font-family:'IBM Plex Mono',ui-monospace,Menlo,monospace;font-size:11px}
+    .lab{fill:#4a5b70;font-family:'IBM Plex Sans','Segoe UI',system-ui,sans-serif;font-size:12px}
+    .ch4{fill:none;stroke:#2e9e6b;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+    .co2{fill:none;stroke:#0d1b2e;stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+    .cross{stroke:#64748b;stroke-width:1;stroke-dasharray:3 3}
+  </style>
+
+  <!-- axes -->
+  <line class="axis" x1="64" y1="318" x2="608" y2="318"/>
+  <line class="axis" x1="64" y1="34" x2="64" y2="318"/>
+
+  <!-- x ticks -->
+  <g class="tick" text-anchor="middle">
+    <text x="64" y="336">0</text>
+    <text x="200" y="336">25</text>
+    <text x="336" y="336">50</text>
+    <text x="472" y="336">75</text>
+    <text x="605" y="336">100</text>
+  </g>
+  <text class="lab" x="336" y="358" text-anchor="middle">Years after a one-off release</text>
+  <text class="lab" x="64" y="24" text-anchor="start">Warming effect</text>
+
+  <!-- CO2 (tortoise) -->
+  <path class="co2" d="M64.0,318.0 L69.4,283.4 L74.9,261.5 L80.3,247.6 L85.8,238.9 L91.2,233.4 L96.6,230.0 L102.1,227.8 L113.0,225.7 L129.3,224.9 L156.5,225.1 L189.1,225.7 L227.2,226.5 L270.7,227.4 L319.7,228.5 L374.1,229.6 L433.9,230.8 L499.2,232.2 L569.9,233.7 L608.0,234.5"/>
+  <!-- CH4 (hare) -->
+  <path class="ch4" d="M64.0,318.0 L69.4,113.8 L74.9,52.8 L80.3,44.0 L85.8,53.7 L91.2,69.3 L96.6,86.2 L102.1,102.8 L107.5,118.6 L113.0,133.3 L118.4,146.9 L123.8,159.6 L129.3,171.3 L134.7,182.2 L140.2,192.2 L145.6,201.5 L151.0,210.1 L161.9,225.5 L172.8,238.7 L183.7,250.0 L194.6,259.7 L210.9,271.7 L227.2,281.3 L243.5,288.8 L265.3,296.6 L287.0,302.2 L314.2,307.3 L346.9,311.2 L385.0,314.1 L433.9,316.0 L488.3,317.1 L548.2,317.6 L608.0,317.8"/>
+
+  <!-- inline labels -->
+  <text class="lab" x="96" y="40" fill="#2e9e6b" font-weight="600">1 tonne methane</text>
+  <text class="lab" x="404" y="220" fill="#0d1b2e" font-weight="600">28 tonnes CO₂</text>
+</svg>
