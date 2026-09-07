@@ -16,7 +16,7 @@ Then open <http://localhost:4317>. Opening `index.html` directly from the filesy
 
 Upload `index.html` and the `assets/` folder as they are. No build, no server-side code, no dependencies. Any static host works (Netlify, Vercel, Cloudflare Pages, or ordinary web hosting).
 
-Before going live on the production domain, check that the absolute URLs in the `<head>` of `index.html` point at it — `canonical`, `og:url`, `og:image` and `twitter:image` are currently set to `https://amibiogas.com/`. Link previews in email, LinkedIn and Slack will only render correctly once those match the real address.
+The production domain is **amibiogas.com**. The absolute URLs in the `<head>` of `index.html` — `canonical`, `og:url`, `og:image` and `twitter:image` — are already set to it, so link previews in email, LinkedIn and Slack resolve correctly. If the site ever moves, update those four and regenerate nothing else.
 
 ## Editing
 
