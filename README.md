@@ -44,3 +44,14 @@ Please check before adding figures or naming parties.
 ## Fonts
 
 IBM Plex Sans and IBM Plex Mono, self-hosted in `assets/fonts/` (SIL Open Font License).
+
+## Analytics
+
+Traffic is measured with **Cloudflare Web Analytics** — one deferred beacon script at the
+bottom of `index.html`. It is cookieless, stores nothing on the visitor's device, collects
+no personal data, and needs no consent banner. The dashboard lives at
+dash.cloudflare.com → Analytics & Logs → Web Analytics.
+
+The site token is embedded in the `data-cf-beacon` attribute in `index.html`. To move the
+site to a different Cloudflare account, register the domain there and swap that one token.
+This is the only third-party script on the site.
